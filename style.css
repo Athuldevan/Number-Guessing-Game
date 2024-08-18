@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: white;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:12px;
+    padding: 20px;
+
+}
+
+.again-button{
+    text-align: center;
+    width: 5.2rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-color: #222;
+}
+.again-button:hover{
+    background-color: #eeeeeecd;
+    color: #222;
+    /* border: 2px solid #eee;  */
+}
+.again-button:active{
+    background-color: #222;
+    color: #eee;
+    border: 2px solid #eee;
+
+}
+
+.para{
+    font-size: 1.2rem;
+    font-family:monospace;
+    border: 2px solid #eee;
+    padding: 22px;
+}
+
+/* main content styles  */
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+    font-family: monospace;
+    font-size:1.5rem;
+
+}
+.number-input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    width: 20%;
+    height: 60px;
+    font-size: 3.3rem;
+    font-family: cursive;
+}
+.Check-button{
+    margin-left:35px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.score-container{
+   position: absolute;
+   left: 60%;
+   bottom: 30%;
+   margin: 5rem;
+}
+/* //message-information styles  */
+.message-information{
+    margin-bottom: 1rem;
+    font-family:monospace;
+}
